@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- for sololearn images-->
+
+<link rel="stylesheet" href="/public/stylesheets/homestyle.css">
+<link rel="stylesheet" href="/public/stylesheets/serviceFeature.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+</style>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div style="color: lightblue; text-align: center; background-color: white; margin: 0; padding: 20px; display: none;">
+    <h3 style="color: lightBlue; text-align: center; background-color: white; margin: 0">AD here</h3>
+</div>
+
+  <div class="grid-container">
+    <div class="item1">
+<header>
+<div class="topnav" id="myTopnav">
+     
+     <!-- 
+  <a href="#home" class="active"><i class="fa fa-home"></i> TEN IT SOLUTION</a> -->
+  <a><span style="font-size:1.25rem; color:#c3c3c3;
+     margin:0%; /*border:solid #000000; border-radius: 50px;*/">
+      &nbsp  </span>
+      <span style="color:#80c0c0; font-size: 1.25rem;">Softronics</span>
+      </a>
+  
+  <a class="menu_head"><i class='fa fa-user' style='font-size:24px'></i>
+  Profile</a>
+  <a class="menu_head" href="#signin"><i class="fa fa-sign-in"></i>
+  Login | Register</a>
+  <a class="menu_head" href="#contact">Contact</a>
+  <div class="dropdown">
+      
+    <div class="dropbtn">Dropdown 
+    <i class="fa fa-caret-down"></i></div>
+    <div class="dropdown-content">
+      <a href="">Link 1</a>
+      <a href="">Link 2</a>
+      <a href="">Link 3</a>
+    </div>
+    
+  </div> 
+  <a class="menu_head" href="#about">About</a>
+  <a href="javascript:void(0);" 
+  style="font-size:15px;border:none; border-radius: 5px 5px 5px 5px; margin:0" 
+  class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+</div>
+<style type="text/css" media="all">
+
+send proof form css*/
+            html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 0px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.proof-form-container {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+       
+/*end of send proof css*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* padding: 200px; */
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+}
+/* body {margin:0;font-family:Arial} */
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  color: #80c0c0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #80c0c0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color:#fff;
+  background-color: #06697A;
+}
+
+.active {
+  
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+    Cursor:pointer;
+  /*overflow: hidden;*/
+  
+  
+  
+}
+
+.dropdown .dropbtn {
+    color: #80c0c0;
+    padding: 14px 16px;
+    font-size: 18px;
+   border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+ 
+
+  
+}
+
+.active, .dropbtn:hover {
+    margin: 0;
+    width: 100%;
+    background-color: #06697A;
+    color:#fff;
+}
+.dropbtn:after {
+    
+}
+
+.dropdown-content {
+  /*display: none;*/
+  position: absolute;
+  background-color: #000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0 8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display: block;*/
+  text-align: left;
+}
+/*
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #000;
+}
+*/
+.dropdown-content a:hover {
+  background-color: #06697A;
+  color: #fff;
+}
+/*
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .item2 {
+        display: none;
+    }
+    .item4{
+  display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+  float: none;
+  }
+  .topnav.responsive .dropdown-content {
+  position: relative;
+  }
+.topnav.responsive .dropdown .dropbtn {
+   display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .item2 {
+        display: none;
+        font-size: 2vw;
+    }
+    .item4{
+  display: none;
+  }
+
+  .main-service-section {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .proof-form-container {
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 300px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+/* dropdown*/
+
+/*from css block*/
+/* Created by Solo */
+
+/* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300); */
+
+:root {
+    --color1: #549DA0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    line-height: 1.45;
+    background:linear-gradient(rgb(10, 24, 24),rgb(5, 34, 57));
+}
+/*
+header {
+    color: #FFF;
+    background-color: #284b63;
+    padding: 0 0 50px 0;
+    text-align: center;
+    
+}
+
+h1 {
+
+  font-size: 3rem;
+  margin: 0 0 16px 0;
+  
+  text-align:left;
+  margin-top:0;
+}
+h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 0 16px 0;
+}
+*/
+.main_service_container {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    max-width: 900px;
+    --d: none;
+    color: lightBlue;
+    font-size: 12px;
+    /*
+    background: linear-gradient(rgb(10, 24, 24),rgb(5, 34, 57));
+    */
+}
+/*
+.btn {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    background: var(--color1);
+    border-radius: 5px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #468486;
+    --d: block;
+}
+*/
+@keyframes wave {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100px;  
+  }
+}
+/*
+.submenu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align:center;
+    background-color: var(--color1);
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: var(--d);
+    animation: wave 2s;
+}
+.submenu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.submenu a:hover {
+    background-color: #468486;
+}
+*/
+section {
+    text-align: center;
+    padding: 40px 0;
+    /*
+    background: linear-gradient(rgb(10, 24, 24),rgb(5, 34, 57));
+    */
+}
+
+#main_service_feature1,
+#main_service_feature2,
+#main_service_feature3,
+#main_service_feature4,
+#main_service_feature5,
+#main_service_feature6 {
+  width: 32%;
+  display: inline-block;
+  font-size: 1rem;
+  box-shadow: 0px 1px 1px 1px #888888;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/*
+#main_service_feature1,
+#main_service_feature2,
+#main_service_feature3,
+#main_service_feature4,
+#main_service_feature5,
+#main_service_feature6 img {
+    width: 40%;
+}
+*/
+
+.service-title {
+  margin: 0;
+  font-size: 1.5vw;
+  color: #000;
+}
+
+.pTag-icon-holder {
+  margin: 0;
+  font-size: 0.2vw;
+  color: #000;
+}
+
+.text-node {
+    /*margin: 0;'/'
+ /* font-size: 1.5vw; */
+  color: #000;
+}
+
+.quote {
+   /* background: var(--color1); *//*
+   background: linear-gradient(rgb(10, 24, 24),rgb(5, 34, 57));
+    color:#FFF;*/
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 1.5rem;
+}
+blockquote cite {
+    font-size: 1rem;
+    font-style: italic;
+}  
+blockquote cite:before {
+    content: '–';
+    margin-right: 5px;
+}
+footer {
+    background: #000;
+    padding: 32px 0;
+    text-align: center;
+    color: #868686;
+    font-size: 0.75rem;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+footer li a {
+    padding: 6px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover {
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .btn {
+        display: block;
+        font-size: 1.125rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 0 0 8px 0;
+    }
+    h2, blockquote p {
+        font-size: 1.125rem;
+    }
+    section {
+        padding: 25px 0 15px 0;
+    } 
+    .feature {
+        width: 100%;
+        text-align: left;
+        margin: 0 0 10px 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_service_feature img {
+        width: 15%;
+        min-width: 60px;
+        margin-right: 20px;
+    }
+    .quote {
+        padding: 30px 0;
+    }
+    blockquote cite {
+        font-size: 0.875rem;
+    }
+    footer {
+        padding: 30px 0 10px 0;
+        /*background-color:#063970;*/
+    }
+    footer li {
+        display: block;
+        margin: 5px 0;
+    }
+    .submenu {
+        width: 100%;
+        position: relative;
+    }
+    
+    .item2 {
+        display: none;
+        font-size: 3vw;
+    }
+    .item4{
+  display: none;
+  }
+}
+
+footer .main_service_container{
+  /*  background: #000;*/
+}
+
+/*website structure*/
+.item1{
+  grid-area: header;
+  background-color: lightblue;
+}
+.item2{grid-area: menu;
+        
+  /*width: 300px;*/
+  background-color: brown;
+}
+.item2 ul {
+list-style: none;
+text-align: left;
+}
+.item3{grid-area: main;
+  display: flex;
+  flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+  background-color: white;
+  /*width: 100%;*/
+  padding: 5px;
+}
+
+.item3 h1 {
+    display: none;
+}
+.item4{
+  grid-area: right;
+  background-color: white;
+  visibility: visible;
+}
+.item5{grid-area: footer;
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  background-color: black;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas:
+'header header header header header header'
+'menu main main main main right'
+'footer footer footer footer footer footer';
+gap: 0px;
+background-color: "#fffffff";
+padding: 0px;
+}
+.grid-container > div {
+ text-align: center;
+}
+
+  /*side nav*/
+.sidebar-layout {
+  margin: 0;
+  padding: 0;
+}
+.sidebar-parent-div {
+  position: relative;
+  height: 100vmax;
+  /* width: 300px; */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(5, 35, 70, 0.842), rgba(2, 63, 78, 0.5)), url("https://user-images.githubusercontent.com/25878302/144499035-2911184c-76d3-4611-86e7-bc4e8ff84ff5.jpg");
+}
+
+.sidenavbar-list {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /*background-color: #000;*/
+  width: 100%;
+}
+.sidenavbar-list ul {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* background-color: brown; */
+  width: 100%;
+  white-space: nowrap;
+}
+.sidenavbar-list ul li{
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+
+  /*color: white;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+  */
+  /* width: 290px; */
+  padding: 10px 0 10px 10px;
+}
+
+.sidenavbar-list ul li:hover {
+  text-align: left;
+  cursor: pointer;
+  background-color: #06567abd;
+}
+
+.sidenavbar-list ul li a{
+  display: inline-block;
+  margin: 0;
+  /* width: 100%; */
+  text-decoration: none;
+  color:lightgray;
+  cursor: pointer;
+}
+
+.sidenavbar-list ul li i{
+  padding: 0 10px 0 0;
+}
+
+.side-navbar {
+  /*background-color: black;*/ 
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* width: 300px; */
+}
+.side-navbar h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 20px 0 20px;
+}
+
+.sidebar-parent-div footer {
+
+  display: block;
+  bottom: 0px;
+  padding: 20px;
+ background-color: rgba(1, 15, 20, 0.47);
+ border-bottom: 3px solid rgb(91, 91, 91);
+  /* width: 300px; */
+}
+
+
+.sidebar-parent-div footer svg {
+  color: white;
+  text-decoration: none;
+  fill: white;
+  /*margin: 0 10px 10px 10px;*/
+}
+
+.sidebar-footer-profile {
+  
+  display: block;
+  
+  bottom: 0%;
+  left: 0;
+  color: white;
+  list-style: none;
+  
+}
+
+.sidebar-parent-div footer li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sidebar-main-div {
+  /* width: 300px; */
+      margin: 0;
+      z-index: 2;
+}
+
+.useraccount_container {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.pTag-icon-holder {
+    
+}
+
+.useraccount_container p {
+   margin: 0; 
+  padding: 0;
+}
+
+/* .account_service_features, 
+  .statement_service_features,
+  .history_service_features,
+  .balance_service_features {
+    display: none;
+  } */
+
+  .main_service_feature {
+    display: block;
+  }
+
+  .goback_div {
+    display: block;
+    align-items: left;
+  }
+
+  .goback {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    /*height: 50px;*/
+    color: #05869d;
+    margin: 0 0 20px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 1px #888888;
+  }
+
+  .pTag-loading-icon-holder {
+    color: #888888;
+    font-size: 50px;
+  }
+  
+  .service-title {
+      font-size: 2.5vw;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Side Navigation-->
+<div class="item2" id=item2>
+
+  <div class='sidebar-main-div'>
+    
+    <div
+    id="sidebar-layout"
+    style="color: white; 
+    display: flex;
+    flex-direction: row;
+    position: relative";
+    class="sidebar-parent-div">
+
+
+ 
+    <nav class='side-navbar'>
+    <footer class='sidebar-footer'>
+    <li class='sidebar-footer-profile'>
+          
+              <span key={projects.userId}>
+              <img style="width:40px; height: 40px;  
+              border: 5px solid #f3f3f3;
+              border-radius: 40px;
+              border-top: 5px solid lightblue;
+              border-bottom: 5px solid gold;" 
+                src="https://firebasestorage.googleapis.com/v0/b/goshen-transport.appspot.com/o/gosheni%20new.jpg?alt=media&token=dd10c21c-00f6-461e-9333-1a327f771439"
+                               alt="img not foud"  
+                               class="read-course-img"
+                               id="profile_pic_id">
+              <p style="font-size: 12px; margin: 0; padding: 0;" id="username_id">{ project.username } </p>
+              </span>
+        
+
+        </li>
+      </footer>
+      <h1 style="display: none;">Menu</h1>
+        <div class='sidenavbar-list'>
+          <ul style="list-style: none; color: white;">
+          <li><i class="fa-solid fa-house" style="color: #00d5ff; font-size: bold;"></i>
+              <a href="#main" class="nav-link"
+              >Home</a></li>
+              <li><i class="fa-regular fa-paper-plane" style="color: #00d5ff; font-weight: bold;"></i>
+                <a href="#sendproof" class="nav-link"
+                >Send Proof</a></li>
+              <li ><i class="fa-solid fa-money-check" style="color: #00d5ff; font-weight: bold;"></i>
+              <a href="#account" class="nav-link"
+              >Account</a></li>
+            <li><i class="fa-solid fa-file" style="color: #00d5ff; font-weight: bold;"></i>
+              <a href="#statement" class="nav-link"
+              >Statement</a></li>
+            <li><i class="fa-solid fa-clock-rotate-left" style="color: #00d5ff; font-weight: bold;"></i>
+              <a href="#history" class="nav-link"
+            >History</a></li>
+            <li><i class="fa-solid fa-money-check" style="color: #00d5ff; font-weight: bold;"></i>
+            <a href="#balance" class="nav-link"
+            >Balance</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+        
+          </div>
+        </div>
+      </div>
+      <div class="item3" id="item3">
+        <h1>This is a Main Page</h1>
+        <!--for loading effect-->
+        <!--loadning animation-->
+        <div id="loading-animation" style="display: none;"></div>
+        <!--section-->
+        <section cols="3" class="main-service-section" data-page-id="main">
+          <div class="main_service_container" id="nav-container">
+            
+          </div>
+        </section>
+
+        <section class="service_section" data-page-id="sendproof">
+          
+          <div class="send-proof">
+            <div class="goback-div">
+            <button class="goback" 
+            data-target="main">Go back</button></div>
+        <!-- Form section start -->
+       <div class="proof-form-container">
+            <h1><span>Send Proof</span></h1>
+            <form>
+                <input name="name" type="text" placeholder="Name"/><br/>
+                <input name="email" type="email" placeholder="Email"/><br/>
+                <textarea name="message" placeholder="Message"></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+         
+          </div>
+        </section>
+
+        <section class="service_section" data-page-id="account">
+          <div class="useraccount_container">
+            <div class="goback_div">
+            <button class="goback"
+            data-target="main">Go back</button></div>
+            <h3>Account details</h3>
+          
+              <p>Client Name</p>
+              <p>Account Number</p>
+              <p></p>
+              <p></p>
+         
+          </div>
+        </section>             
+        <section class="service_section" data-page-id="statement">
+          <div class="useraccount_container">
+            <div class="goback_div">
+            <button class="goback"
+            data-target="main">Go back</button></div>
+            <h3>Statement details</h3>
+          
+              <p>Client Name</p>
+              <p>Account Number</p>
+              <p></p>
+              <p></p>
+         
+          </div>
+        </section>
+        <section class="service_section" data-page-id="history">
+          <div class="useraccount_container">
+            <div class="goback_div">
+            <button class="goback"
+            data-target="main">Go back</button></div>
+            <h3>History details</h3>
+          
+              <p>Client Name</p>
+              <p>Account Number</p>
+              <p></p>
+              <p></p>
+         
+          </div>
+        </section>
+        <section class="service_section" data-page-id="balance">
+          
+          <div class="useraccount_container">
+            <div class="goback-div">
+            <button class="goback" 
+            data-target="main">Go back</button></div>
+            <h3>Ballance details</h3>
+          
+              <p>Client Name</p>
+              <p>Account Number</p>
+              <p></p>
+              <p></p>
+         
+          </div>
+        </section>
+
+
+  <section class="quote">
+    <blockquote class="container">
+      <p>"Be the change thag you wish to see in the world"</p>
+      <cite>
+        Mahatma Gandhi
+      </cite>
+    </blockquote>
+  </section>
+
+   <button 
+  class="side-menu-btn"
+style="height: 20px; 
+border:1px solid gray;
+border-radius: 2px;
+margin: 10px;">open & close side menu</button>
+  
+</div>
+        <!--item3 end-->
+<div class="item4"></div>
+<div class="item5">Footer</div>
+</div>
+  
+  <footer>
+   <div class="container">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Contacts</a>
+      </li>
+    </ul>
+    <p>&copy; All rights reserved.</p>
+   </div>
+  </footer>
+  
+  
+  
+  
+  <script>
+
+  
+      //top nav
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  
+    var coll = document.getElementsByClassName('dropbtn');
+  
+  var i;
+  for(i = 0; i < coll.length; i++) {
+      coll[i].addEventListener('click', function() {
+      this.classList.toggle('active');
+          var content = this.nextElementSibling;
+          
+  if(content.style.maxHeight) {
+      content.style.maxHeight = null;
+  }
+  else {
+      content.style.maxHeight = content.scrollHeight+"px";
+  }
+      });
+  }
+  //tobar end
+  </script>
+  
+  <script>
+
+    const sideBtn = document.getElementsByClassName("side-menu-btn");
+    
+    let j;
+for (j=0; j < sideBtn.length; j++) {
+        sideBtn[j].addEventListener('click', function() {
+       // this.classList.toggle('active');
+        const sideMenu = document.getElementById("item2");
+        
+        //sideMenu.style.display = "none" ? "block" : null
+        
+        if (sideMenu.style.display === "block") {
+sideMenu.style.display = "none";
+//sideBtn[0].style.width = "0px";
+} else {
+sideMenu.style.display = "block";
+//sideBtn[0].style.width = "160px";
+}
+        
+        /*
+        if(sideMenu.style.display) {
+            sideMenu.style.display = null
+            sideBtn[0].style.width = 160+"px"
+        } else {
+            sideMenu.style.display ="block"
+            sideBtn[0].style.width = 160+"px"
+        }
+        */
+  })
+}
+    
+    
+</script>
+
+<script>
+        
+    const loadingContainer = document.getElementById("loading-animation");
+    const pTagLodingIconHolder = document.createElement('p');
+    
+    const navDivs = [{
+        sectionId: "main",
+        title: "Send Proof",
+        iTag: `<i class="fa-solid fa-file"></i>`,
+    }, {
+        sectionId: "sendproof",
+        title: "Send Proof",
+        iTag: `<i class="fa-solid fa-money-check"></i>`,
+    },
+        {
+        sectionId: "account",
+        title: "Account",
+        iTag: `<i class="fa-solid fa-money-check"></i>`,
+    },
+    {
+        sectionId: "statement",    
+        title: "Statement",
+        iTag: `<i class="fa-solid fa-file"></i>`,
+    },
+    {
+        sectionId: "history",
+        title: "History",
+        iTag: `<i class="fa-solid fa-clock-rotate-left"></i>`,
+    },
+    {
+        sectionId: "balance",
+        title: "Balance",
+        iTag: `<i class="fa-solid fa-money-bill-1-wave"></i>`,
+    }].map((item, index)=> {
+        const mainServiceFeature = document.createElement('div');
+        const pTagIconHolder = document.createElement('p');
+        const mainServiceFeatureSpan = document.createElement('span');
+        const loadingITag = `<i class="fa fa-refresh fa-spin"></i>`;   
+        const pTag = document.createElement('p');
+       // const textNode = document.createTextNode(item.title)
+        //pTag attributes
+        pTag.className = "service-title";
+         // textNode.className = "service-title";
+        //pTag.innerHTML = item.title;
+
+        if (index === 0) {
+            mainServiceFeature.style.display = "none";
+        }
+
+        //set attributes and styles
+        mainServiceFeature.id = "main_service_feature"+[index];
+        mainServiceFeature.className = "nav-link";
+        mainServiceFeature.style.cursor = "pointer";
+        mainServiceFeature.dataset.target = `#${item.sectionId.toLowerCase()}`;
+        pTagIconHolder.className = "pTag-icon-holder";
+        pTagLodingIconHolder.className = "pTag-loading-icon_holder";
+    
+        //add values
+        mainServiceFeatureSpan.innerHTML = item.iTag;
+        pTagLodingIconHolder.innerHTML = loadingITag;
+        pTag.innerText = item.title;
+        //pTagIconHolder.innerText = item.iTag
+        pTagIconHolder.appendChild(mainServiceFeatureSpan)
+        mainServiceFeature.appendChild(pTagIconHolder)
+        //mainServiceFeature.textContent = item.title
+
+        //mainServiceFeature.style.padding = 20+"px";
+        
+        mainServiceFeature.append(pTag)
+
+        
+        //fragment.appendChild(mainServiceFeature)
+        
+        return mainServiceFeature
+    });
+
+    const navContainer = document.getElementById("nav-container");
+
+    navDivs.forEach((div) => {
+        navContainer.appendChild(div);
+    });
+
+    
+    const sections = document.querySelectorAll('.service_section');
+
+    sections.forEach((section) => {
+        section.style.display = "none";
+    })
+
+function showServiceSection(sectionId) {
+            const pages = {
+                    main: "main",
+                    sendproof: "sendproof",
+                    account: "account",
+                    statement: "statement",
+                    history: "history",
+                    balance: "balance",
+            };
+    
+        Object.keys(pages).forEach((page) => {
+            //create one div tohold pages based on id
+            const pageElement = document.querySelector(`[data-page-id="${pages[page]}"]`)
+            pageElement.style.display = page === sectionId ? "block" : "none";
+        });
+        }
+    
+        //add event listener
+      
+           const navLink = document.querySelectorAll('.nav-link');
+           const pTagStored = document.getElementsByClassName("service-title"); 
+           
+            Array.prototype.forEach.call(navLink, (link, index) => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault()
+                
+                    loadingContainer.style.display = "block";
+                    loadingContainer.appendChild(pTagLodingIconHolder);
+    
+                    const target = e.target.closest('.nav-link').dataset.target || e.target.closest('.nav-link').hash;
+                    const sectionId = target.substring(1) || target;
+
+                    setTimeout(()=> {
+                        loadingContainer.style.display = 'none';
+                        showServiceSection(sectionId);
+                    }, 1000);
+        });
+    });
+    
+    const gobackBtn = document.querySelectorAll(".goback");
+    
+      
+      gobackBtn.forEach((backBtn)=> {
+         // backBtn.innerHTML = goBackBtnIcon;
+          backBtn.innerHTML = `<i class="fa-solid fa-arrow-left"></i>`;
+          backBtn.style.fontSize = 20;
+      })
+    
+        Array.prototype.forEach.call(gobackBtn, (btn) => {
+            btn.addEventListener('click', (e) => {
+                const target = e.target.closest('.goback').hash || e.target.closest('.goback').getAttribute('data-target')
+                
+                const sectionId = target || target.substring(1)
+                     showServiceSection(sectionId)
+            });
+        });
+    
+
+</script>
+
+<script type="text/javascript" src="/public/javascripts/home.js"></script>
+<script type="text/javascript" src="/public/javascripts/tenglobaService.js" async></script>
+
+</body>
+</html>
